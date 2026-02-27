@@ -1,0 +1,25 @@
+# Entorno virtual
+venv/
+.venv/
+env/
+
+# Variables de entorno (claves API, etc.)
+.env
+.env.local
+
+# Checkpoints de LangGraph
+checkpoints.sqlite
+*.sqlite
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
